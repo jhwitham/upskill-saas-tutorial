@@ -26,7 +26,7 @@ h1, h2, h3 {
  }
 
 // Background Gradient
-.navbar, .home-callout {
+.navbar, .home-callout, {
  // Gradient by @_ighosh UIGradients.com
  background: #11998e; /* fallback for old browsers */
  background: -webkit-linear-gradient(to right, #11998e, #38ef7d); /* Chrome 10-25, Safari 5.1-6 */
@@ -69,4 +69,8 @@ h1, h2, h3 {
  margin-top: -20px;
  padding-top: 50px;
  padding-bottom: 100px;
+}
+
+.alert-notice {
+ display: none;
 }
